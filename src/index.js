@@ -5,14 +5,14 @@ function renderDrama(message, share, sharePath, teaser) {
     return `
 <html>
     <head>
-        <title>Spigot Drama Generator</title>
+        <title>Anarchy Drama Generator</title>
         <meta name="description" content="${message}" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <meta name="og:title" content="${teaser}"/>
         <meta name="og:type" content="website"/>
         <meta name="og:url" content="${share}"/>
-        <meta name="og:site_name" content="Spigot Drama Generator"/>
+        <meta name="og:site_name" content="Anarchy Drama Generator"/>
         <meta name="og:description" content="${message}"/>
 
         <link rel="icon" href="data:,">
@@ -64,7 +64,7 @@ function renderDrama(message, share, sharePath, teaser) {
         </script>
     </head>
     <body>
-        <h3>Spigot Drama Generator</h3>
+        <h3>Anarchy Drama Generator</h3>
         <h1>${message}</h1>
         <span id="fight"></span>
         <h6>
@@ -73,16 +73,9 @@ function renderDrama(message, share, sharePath, teaser) {
             <br />
             This website is made in jest - don't take it too seriously!
             <br />
-            Developed by mdcfe; PRs welcome on <a href="https://github.com/mdcfe/spigot-drama-generator">GitHub</a>.
+            Developed by mdcfe and forked and edited by AlexProgramerDE; PRs welcome on <a href="https://github.com/AlexProgrammerDE/anarchy-drama-generator">GitHub</a>.
             <br />
             Inspired by (and heavily borrows from) <a href="https://github.com/asiekierka/MinecraftDramaGenerator/">asiekierka's Minecraft Drama Generator</a>.
-            <br />
-            <br />
-            <i>Now available in <a href="https://twitter.com/SpigotDrama">Twitter</a> form!</i>
-            <br />
-            <a href="https://api.chew.pro/spigotdrama">Chew's JSON API (unofficial)</a>
-            <br />
-            <a href="https://syscraft.org/">Long live Syscraft - the new place for resources for Minecraft server admins, developers and hosts</a>
         </h6>
     </body>
 </html>
