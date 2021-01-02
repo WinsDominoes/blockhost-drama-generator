@@ -19,7 +19,10 @@
             "SevJ6",
             "254n_m",
             "DoubleCheck",
-            "mastercooker"
+            "mastercooker",
+            "Mitch",
+            "Bronto",
+            "fxlls"
         ],
         "sites": [
             "SpigotMC Forums",
@@ -31,7 +34,8 @@
             "Sponge Forums",
             "SpigotMC Discord",
             "2b2t website",
-            "Anarchy Links Hub"
+            "Anarchy Links Hub",
+            "Anarchy Server Support"
         ],
         "things": [
             "Paper",
@@ -81,7 +85,14 @@
             "Pebblehost",
             "10b10t",
             "hisparquia",
-            "oldfag"
+            "oldfag",
+            "l2x9",
+            "9b9t",
+            "constantiam",
+            "0b0t",
+            "endcrystal.me",
+            "5b5t",
+            "8b8t"
         ],
         "function": [
             "1.8 support",
@@ -94,8 +105,6 @@
             "Sponge support",
             "Forge compatibility",
             "async teleportation",
-            "/kittycannon",
-            "/beezooka",
             "Paper exclusivity",
             "PaperLib.suggestPaper()",
             "dupe fixes",
@@ -110,7 +119,6 @@
             "overpowered items",
             "underpowered items",
             "achievements",
-            "quests",
             "more annoying worldgen",
             "legacy color codes",
             "spigot bugs",
@@ -120,19 +128,12 @@
             "GPL compliance",
             "overpowered commands",
             "underpowered commands",
-            "anti-cheat",
-            "mixins",
-            "patches",
-            "MCP mappings",
+            "anti-cheat"
             "Yarn mappings",
             "Mojang mappings",
-            "Brigadier support",
             "hover events",
             "click events",
-            "the MIT license",
-            "automatic library downloading",
-            "bytecode rewrites",
-            "reflection-based Spigot bug workarounds"
+            "the MIT license"
         ],
         "adj": [
             "bad",
@@ -162,7 +163,6 @@
             "malware",
             "spyware",
             "adware",
-            "DRM",
             "viruses",
             "trojans",
             "keyloggers",
@@ -174,16 +174,11 @@
             "stolen assets",
             "malicious code",
             "secret backdoors",
-            "kangarko/Foundation",
-            "obfuscation",
-            "Songoda plugins",
             "ransomware",
             "remote code execution",
             "precompiled Spigot binaries",
             "force ops",
-            "server crashers",
-            "arbitrary JavaScript execution",
-            "Lombok"
+            "server crashers"
         ],
         "drama": [
             "bugs",
@@ -219,7 +214,13 @@
             "rain hellfish",
             "spawn bees",
             "drop /nuke",
-            "hold servers ransom"
+            "hold servers ransom",
+            "build lag machines",
+            "go to nether roof",
+            "break end portal",
+            "use god mode",
+            "spawn 32ks",
+            "satck items"
         ],
         "ban": [
             "ban",
@@ -244,12 +245,8 @@
             "a class",
             "a few files",
             "a ZIP file",
-            "Gradle buildscripts",
             "a GitHub repository",
             "a pom.xml",
-            "obfuscated class files",
-            "precompiled binaries",
-            "precompiled natives",
             "a sources jar",
             "a Javadoc jar"
         ],
