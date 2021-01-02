@@ -22,7 +22,9 @@
             "mastercooker",
             "Mitch",
             "Bronto",
-            "fxlls"
+            "fxlls",
+            "qbasty",
+            "GamingDerp"
         ],
         "sites": [
             "SpigotMC Forums",
@@ -201,7 +203,8 @@
             "damage control",
             "outrage",
             "mild annoyance",
-            "chaos"
+            "chaos",
+            "ANARCHY"
         ],
         "crash": [
             "crash",
@@ -220,7 +223,7 @@
             "break end portal",
             "use god mode",
             "spawn 32ks",
-            "satck items"
+            "stack items"
         ],
         "ban": [
             "ban",
@@ -330,18 +333,14 @@
             "huge",
             "gigantic",
             "enormous",
-            "colossal",
-            "Hypixel-sized"
+            "colossal"
         ],
         "payment": [
             "PayPal",
-            "Xsolla",
-            "Mollie",
             "Stripe",
             "Patreon",
-            "Open Collective",
-            "Ko-fi",
             "Tebex",
+            "Craftingstore",
             "GitHub Sponsors"
         ],
         "document": [
@@ -354,12 +353,9 @@
             "Bukkit",
             "Bungeecord",
             "Paper",
-            "Sponge",
             "Velocity",
             "Forge",
             "Fabric",
-            "CanaryMod",
-            "Cloudburst",
             "Geyser"
         ]
     },
@@ -522,7 +518,6 @@
         "Fresh drama!",
         "Breaking news!",
         "Drama alert!",
-        "Trending on Twitter!",
         "Trending on Hacker News!"
     ]
 }
