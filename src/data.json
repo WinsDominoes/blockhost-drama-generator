@@ -14,7 +14,12 @@
             "phantom",
             "Bleepo",
             "Hausemaster",
-            "Bait"
+            "Bait",
+            "Gav06",
+            "SevJ6",
+            "254n_m",
+            "DoubleCheck",
+            "mastercooker"
         ],
         "sites": [
             "SpigotMC Forums",
@@ -44,7 +49,6 @@
             "ChatControl",
             "ProtocolLib",
             "ViaVersion",
-            "ViaRewind",
             "ViaBackwards",
             "ProtocolSupport",
             "Fabric",
@@ -65,7 +69,11 @@
             "PistonChat",
             "ChatCo",
             "TCPShield",
-            "BotSentry"
+            "BotSentry",
+            "PaperBin",
+            "Future Client",
+            "RusherHack",
+            "Kami Blue"
         ],
         "servers": [
             "6b6t.org",
@@ -75,7 +83,8 @@
             "Minehut",
             "Pebblehost",
             "10b10t",
-            "hisparquia"
+            "hisparquia",
+            "oldfag"
         ],
         "function": [
             "1.8 support",
@@ -124,9 +133,6 @@
             "hover events",
             "click events",
             "the MIT license",
-            "Kotlin support",
-            "Scala support",
-            "Groovy support",
             "automatic library downloading",
             "bytecode rewrites",
             "reflection-based Spigot bug workarounds"
