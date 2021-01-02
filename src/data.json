@@ -47,9 +47,7 @@
             "Tuinity",
             "Purpur",
             "ChatControl",
-            "ProtocolLib",
             "ViaVersion",
-            "ViaBackwards",
             "ProtocolSupport",
             "Fabric",
             "WorldEdit",
@@ -79,7 +77,6 @@
             "6b6t.org",
             "6b6t.co",
             "2b2t",
-            "SpigotCraft",
             "Minehut",
             "Pebblehost",
             "10b10t",
@@ -514,7 +511,13 @@
         "[people] joins governments around to world to ruin [things]",
         "[people] joins governments around to world to ruin [badsoft]",
         "[people] joins governments around to world to ruin [sites]",
-        "[people] joins governments around to world to ruin [servers]"
+        "[people] joins governments around to world to ruin [servers]",
+        "[people] ddoses [people] causing [drama]",
+        "[people] ddoses [people] causing [drama] on [sites]",
+        "[people] doxxes [people] causing [drama]",
+        "[people] doxxes [people] causing [drama] on [sites]",
+        "[people] doxxes [people] causing [drama] on [sites]",
+        "[people] does [crash] [servers] causing [drama]"
     ],
     "social": [
         "Hot off the press!",
