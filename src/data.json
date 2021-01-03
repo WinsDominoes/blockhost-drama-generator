@@ -28,7 +28,6 @@
             "ThePureLemon",
             "ZimTheDestroyer",
             "1002",
-            "CRAM",
             "LolRiTTeR"
         ],
         "sites": [
@@ -72,13 +71,14 @@
             "TCPShield",
             "BotSentry",
             "PaperBin",
+            "XeraBungeeQueue"
+        ],
+        "clients": [
             "Future Client",
             "RusherHack",
             "Kami Blue",
-            "Death Messages Prime",
-            "PlayTimes",
-            "PistonMOTD",
-            "XeraBungeeQueue"
+            "Inertia Client",
+            "Impact client"
         ],
         "servers": [
             "6b6t.org",
@@ -359,9 +359,9 @@
         "[people] launched a DoS attack on the website of [things]",
         "[sites] urges everyone to stop using [things]",
         "After a [enormous] amount of requests, [servers] removes [things]",
+        "After a [enormous] amount of requests, [servers] removes [function]",
         "After a [enormous] amount of requests, [servers] adds [things]",
-        "After a [enormous] amount of requests, [servers] adds [function] to [things]",
-        "[people] plays [things] on Twitch",
+        "After a [enormous] amount of requests, [servers] adds [function]",
         "[people] fixes [function] in [things] to be unlike [things]",
         "[things] makes [things] [crash], [sites] users complain",
         "[people] complained about being in [things] on [sites]",
