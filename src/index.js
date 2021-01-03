@@ -1,8 +1,8 @@
-const { randomIndex, randomEntry } = require("./util");
-const { combinations, sentences, social } = require("./data.json");
+const { randomIndex, randomEntry } = require('./util')
+const { combinations, sentences, social } = require('./data.json')
 
-function renderDrama(message, share, sharePath, teaser) {
-    return `
+function renderDrama (message, share, sharePath, teaser) {
+  return `
 <html>
     <head>
         <title>Anarchy Drama Generator</title>
@@ -82,74 +82,80 @@ function renderDrama(message, share, sharePath, teaser) {
     `
 }
 
-function handleRoot(url) {
-    let drama = {};
+function handleRoot (url) {
+  const drama = {}
 
-    drama.sentence = randomIndex(sentences);
+  drama.sentence = randomIndex(sentences)
+
+  for (key in combinations) {
+    drama[key] = [randomIndex(combinations[key]), randomIndex(combinations[key]), randomIndex(combinations[key]), randomIndex(combinations[key])]
+  }
+
+  const dramaUrl = btoa(JSON.stringify(drama))
+  const host = url.host == 'example.com' ? 'localhost:8787' : url.host
+
+  return handleDrama(new URL(`${url.protocol}//${host}/${dramaUrl}`))
+}
+
+function handleDrama (url) {
+  try {
+    const dramaIds = JSON.parse(atob(url.pathname.split('/')[1]))
+    const usedDramaIds = { sentence: dramaIds.sentence }
+    let message = sentences[dramaIds.sentence]
 
     for (key in combinations) {
-        drama[key] = [randomIndex(combinations[key]), randomIndex(combinations[key]), randomIndex(combinations[key]), randomIndex(combinations[key])];
+      const placeholder = `[${key}]`
+      if (!message.includes(placeholder)) continue
+      usedDramaIds[key] = []
+      for (id of dramaIds[key]) {
+        if (!message.includes(placeholder)) continue
+        usedDramaIds[key].push(id)
+
+        const replacement = combinations[key][id]
+        message = message.replace(placeholder, replacement)
+      }
     }
 
-    const dramaUrl = btoa(JSON.stringify(drama));
-    const host = url.host == "example.com" ? "localhost:8787" : url.host;
+    url.pathname = '/' + btoa(JSON.stringify(usedDramaIds))
 
-    return handleDrama(new URL(`${url.protocol}//${host}/${dramaUrl}`));
+    const teaser = randomEntry(social)
+
+    return new Response(renderDrama(message, url.href, url.pathname, teaser), {
+      headers: {
+        'content-type': 'text/html;charset=utf8'
+      }
+    })
+  } catch (error) {
+    return handle404()
+  }
 }
 
-function handleDrama(url) {
-    try {
-        let dramaIds = JSON.parse(atob(url.pathname.split("/")[1]));
-        let usedDramaIds = { sentence: dramaIds.sentence };
-        let message = sentences[dramaIds.sentence];
-
-        for (key in combinations) {
-            const placeholder = `[${key}]`;
-            if (!message.includes(placeholder)) continue;
-            usedDramaIds[key] = [];
-            for (id of dramaIds[key]) {
-                if (!message.includes(placeholder)) continue;
-                usedDramaIds[key].push(id);
-
-                const replacement = combinations[key][id];
-                message = message.replace(placeholder, replacement);
-            }
-        }
-
-        url.pathname = "/" + btoa(JSON.stringify(usedDramaIds));
-
-        let teaser = randomEntry(social);
-
-        return new Response(renderDrama(message, url.href, url.pathname, teaser), {
-            headers: {
-                "content-type": "text/html;charset=utf8"
-            }
-        });
-    } catch (error) {
-        return handle404();
-    }
+function handle404 () {
+  return new Response('no u', {
+    status: '404'
+  })
 }
 
-function handle404() {
-    return new Response("no u", {
-        status: "404"
-    });
+function safeRedirect (url) {
+  return Response.redirect(url.replace('http://', 'https://'), 302)
 }
 
 addEventListener('fetch', event => {
-    event.respondWith(handleRequest(event.request))
+  event.respondWith(handleRequest(event.request))
 })
 /**
  * Respond with hello worker text
  * @param {Request} request
  */
-async function handleRequest(request) {
-    let url = new URL(request.url);
-    if (url.pathname == "/") {
-        return handleRoot(url);
-    } else if (url.pathname == "/favicon.ico") {
-        return handle404();
-    } else {
-        return handleDrama(url);
-    }
+async function handleRequest (request) {
+  const url = new URL(request.url)
+  if (url.pathname == '/') {
+    return handleRoot(url)
+  } else if (url.pathname == '/favicon.ico') {
+    return handle404()
+  } else if (url.pathname.startsWith('htt://')) {
+    return safeRedirect(url)
+  } else {
+    return handleDrama(url)
+  }
 }
