@@ -2,5 +2,5 @@ name = "drama-hidden-backend"
 type = "webpack"
 account_id = "4dd0e72d7bf89402be905fb40cdb230a"
 workers_dev = true
-route = "drama"
-zone_id = "46aec344343288f6acb5130340b0efe6"
+route = ""
+zone_id = ""
