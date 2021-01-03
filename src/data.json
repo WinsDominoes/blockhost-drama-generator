@@ -22,8 +22,7 @@
             "mastercooker",
             "Mitch",
             "Bronto",
-            "fxlls",
-            "qbasty",
+            "fxlls", 
             "GamingDerp",
             "ThePureLemon",
             "ZimTheDestroyer",
@@ -31,8 +30,6 @@
             "LolRiTTeR"
         ],
         "sites": [
-            "SpigotMC Forums",
-            "Reddit",
             "/r/admincraft",
             "PaperMC Discord",
             "GitHub",
@@ -44,18 +41,11 @@
         ],
         "things": [
             "Paper",
-            "Spigot",
-            "Bungeecord",
             "GroupManager",
             "LuckPerms",
-            "PermissionsEx v1",
-            "Waterfall",
-            "Tuinity",
-            "Purpur",
+            "PermissionsEx",
             "ChatControl",
             "ViaVersion",
-            "ProtocolSupport",
-            "Fabric",
             "WorldEdit",
             "Forge",
             "open-source plugins",
@@ -507,7 +497,9 @@
         "[people] doxxes [people] causing [drama] on [sites]",
         "[people] doxxes [people] causing [drama] on [sites]",
         "[people] does [crash] [servers] causing [drama]",
-        "[people] scams [people] by [price] causing [drama]"
+        "[people] scams [people] by [price] causing [drama]",
+        "[clients] bans [people] causing drama"
+
     ],
     "social": [
         "Hot off the press!",
