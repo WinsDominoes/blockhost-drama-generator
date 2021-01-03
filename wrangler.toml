@@ -1,4 +1,4 @@
-name = "anarchy-drama-generator"
+name = "drama-hidden-backend"
 type = "webpack"
 account_id = "4dd0e72d7bf89402be905fb40cdb230a"
 workers_dev = true
