@@ -27,11 +27,12 @@
             "GamingDerp",
             "ThePureLemon",
             "ZimTheDestroyer",
-            "1002"
+            "1002",
+            "CRAM",
+            "LolRiTTeR"
         ],
         "sites": [
             "SpigotMC Forums",
-            "Minecraft Forums",
             "Reddit",
             "/r/admincraft",
             "PaperMC Discord",
@@ -39,7 +40,8 @@
             "SpigotMC Discord",
             "2b2t website",
             "Anarchy Links Hub",
-            "Anarchy Server Support"
+            "Anarchy Server Support",
+            "Server Admins Anonymous"
         ],
         "things": [
             "Paper",
@@ -97,7 +99,8 @@
             "0b0t",
             "endcrystal.me",
             "5b5t",
-            "8b8t"
+            "8b8t",
+            "impurity"
         ],
         "function": [
             "1.8 support",
