@@ -153,7 +153,7 @@ async function handleRequest (request) {
     return handleRoot(url)
   } else if (url.pathname == '/favicon.ico') {
     return handle404()
-  } else if (url.pathname.startsWith('htt://')) {
+  } else if (url.pathname.startsWith('http://')) {
     return safeRedirect(url)
   } else {
     return handleDrama(url)
