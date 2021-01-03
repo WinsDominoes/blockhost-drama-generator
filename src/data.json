@@ -36,7 +36,6 @@
             "/r/admincraft",
             "PaperMC Discord",
             "GitHub",
-            "Sponge Forums",
             "SpigotMC Discord",
             "2b2t website",
             "Anarchy Links Hub",
@@ -62,10 +61,8 @@
             "WorldEdit",
             "Sponge",
             "Forge",
-            "Mojang",
             "open-source plugins",
             "closed-source plugins",
-            "bStats",
             "LuckPerms Web Editor",
             "Travertine",
             "RedisBungee",
@@ -80,7 +77,11 @@
             "PaperBin",
             "Future Client",
             "RusherHack",
-            "Kami Blue"
+            "Kami Blue",
+            "Death Messages Prime",
+            "PLayTimes",
+            "PistonMOTD",
+            "XeraBungeeQueue"
         ],
         "servers": [
             "6b6t.org",
@@ -111,9 +112,7 @@
             "Forge compatibility",
             "async teleportation",
             "Paper exclusivity",
-            "PaperLib.suggestPaper()",
             "dupe fixes",
-            "economy",
             "RGB support",
             "realism",
             "new player capes",
@@ -123,21 +122,17 @@
             "custom enchantments",
             "overpowered items",
             "underpowered items",
-            "achievements",
             "more annoying worldgen",
             "legacy color codes",
             "spigot bugs",
             "datapacks",
             "automated wizjany pinging",
             "improved API",
-            "GPL compliance",
             "overpowered commands",
             "underpowered commands",
             "anti-cheat",
-            "Mojang mappings",
             "hover events",
-            "click events",
-            "the MIT license"
+            "click events"
         ],
         "adj": [
             "bad",
@@ -145,7 +140,6 @@
             "illegal",
             "horrible",
             "nasty",
-            "noncompliant with Mojang's EULA",
             "a serious problem",
             "incompatible",
             "a waste of time",
@@ -160,8 +154,7 @@
             "incorrect",
             "full of drama",
             "too realistic",
-            "terrible",
-            "not GPL compliant"
+            "terrible"
         ],
         "badsoft": [
             "malware",
@@ -192,8 +185,6 @@
             "imbalance",
             "pain and suffering",
             "piracy",
-            "bees",
-            "adf.ly",
             "dupe glitches",
             "lighting bugs",
             "obfuscation",
@@ -206,7 +197,8 @@
             "outrage",
             "mild annoyance",
             "chaos",
-            "ANARCHY"
+            "ANARCHY",
+            "backdoors"
         ],
         "crash": [
             "crash",
@@ -216,7 +208,6 @@
             "blow up",
             "corrupt chunks",
             "corrupt worlds",
-            "rain hellfish",
             "spawn bees",
             "drop /nuke",
             "hold servers ransom",
@@ -251,9 +242,7 @@
             "a few files",
             "a ZIP file",
             "a GitHub repository",
-            "a pom.xml",
-            "a sources jar",
-            "a Javadoc jar"
+            "a pom.xml"
         ],
         "worse": [
             "worse",
@@ -267,8 +256,7 @@
             "less vanilla",
             "more buggy",
             "more broken",
-            "less competent",
-            "kangarko like"
+            "less competent"
         ],
         "ac1": [
             "sue",
@@ -327,7 +315,9 @@
             "declares",
             "pings @everyone to announce",
             "rants",
-            "sets up a bot to say"
+            "sets up a bot to say",
+            "chats",
+            "dms that"
         ],
         "enormous": [
             "big",
@@ -343,13 +333,13 @@
             "Patreon",
             "Tebex",
             "Craftingstore",
-            "GitHub Sponsors"
+            "BitCoin"
         ],
         "document": [
-            "code of conduct",
             "community guidelines",
-            "contributing guide",
-            "contributor license agreement"
+            "discord rules",
+            "server rules",
+            "donation prices"
         ],
         "platforms": [
             "Bukkit",
