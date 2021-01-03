@@ -46,7 +46,6 @@
             "Spigot",
             "Bungeecord",
             "CraftBukkit",
-            "Fukkit",
             "Velocity",
             "GroupManager",
             "LuckPerms",
@@ -118,7 +117,6 @@
             "new player capes",
             "more drama",
             "less drama",
-            "drama generation commands",
             "custom enchantments",
             "overpowered items",
             "underpowered items",
@@ -132,7 +130,9 @@
             "underpowered commands",
             "anti-cheat",
             "hover events",
-            "click events"
+            "click events",
+            "/home",
+            "/tpa"
         ],
         "adj": [
             "bad",
@@ -173,7 +173,6 @@
             "secret backdoors",
             "ransomware",
             "remote code execution",
-            "precompiled Spigot binaries",
             "force ops",
             "server crashers"
         ],
@@ -198,7 +197,12 @@
             "mild annoyance",
             "chaos",
             "ANARCHY",
-            "backdoors"
+            "backdoors",
+            "server owner drama",
+            "server raiding",
+            "discord server raiding",
+            "admin abuse",
+            "bedrock"
         ],
         "crash": [
             "crash",
@@ -325,7 +329,8 @@
             "huge",
             "gigantic",
             "enormous",
-            "colossal"
+            "colossal",
+            "2b2t-sized"
         ],
         "payment": [
             "PayPal",
