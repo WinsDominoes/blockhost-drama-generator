@@ -501,16 +501,17 @@
         "[people] bans [platforms]-related software from [sites]",
         "[people] bans [things] from [sites] for breaking the [document]",
         "[people] bans [people] from [sites] for breaking the [document]",
-        "[people] joins governments around to world to ruin [things]",
-        "[people] joins governments around to world to ruin [badsoft]",
-        "[people] joins governments around to world to ruin [sites]",
-        "[people] joins governments around to world to ruin [servers]",
+        "[people] joins governments around the world to ruin [things]",
+        "[people] joins governments around the world to ruin [badsoft]",
+        "[people] joins governments around the world to ruin [sites]",
+        "[people] joins governments around the world to ruin [servers]",
         "[people] ddoses [people] causing [drama]",
         "[people] ddoses [people] causing [drama] on [sites]",
         "[people] doxxes [people] causing [drama]",
         "[people] doxxes [people] causing [drama] on [sites]",
         "[people] doxxes [people] causing [drama] on [sites]",
-        "[people] does [crash] [servers] causing [drama]"
+        "[people] does [crash] [servers] causing [drama]",
+        "[people] scams [people] by [price] causing [drama]"
     ],
     "social": [
         "Hot off the press!",
