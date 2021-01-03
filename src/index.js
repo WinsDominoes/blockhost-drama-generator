@@ -136,10 +136,6 @@ function handle404 () {
   })
 }
 
-function safeRedirect (url) {
-  return Response.redirect(url.replace('http://', 'https://'), 302)
-}
-
 addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request))
 })
@@ -149,12 +145,11 @@ addEventListener('fetch', event => {
  */
 async function handleRequest (request) {
   const url = new URL(request.url)
+
   if (url.pathname == '/') {
     return handleRoot(url)
   } else if (url.pathname == '/favicon.ico') {
     return handle404()
-  } else if (url.pathname.startsWith('http://')) {
-    return safeRedirect(url)
   } else {
     return handleDrama(url)
   }
