@@ -153,9 +153,7 @@
             "trojans",
             "keyloggers",
             "stolen code",
-            "easter eggs",
             "potential login stealers",
-            "adf.ly links",
             "bad code",
             "stolen assets",
             "malicious code",
@@ -163,7 +161,9 @@
             "ransomware",
             "remote code execution",
             "force ops",
-            "server crashers"
+            "server crashers",
+            "backdoored clients",
+            "browser cred stealers"
         ],
         "drama": [
             "bugs",
@@ -191,17 +191,16 @@
             "server raiding",
             "discord server raiding",
             "admin abuse",
-            "bedrock"
+            "bedrock",
+            "exposing"
         ],
         "crash": [
             "crash",
             "explode",
             "break",
             "lag",
-            "blow up",
             "corrupt chunks",
             "corrupt worlds",
-            "spawn bees",
             "drop /nuke",
             "hold servers ransom",
             "build lag machines",
@@ -310,7 +309,8 @@
             "rants",
             "sets up a bot to say",
             "chats",
-            "dms that"
+            "dms that",
+            "joins 2b2t to say"
         ],
         "enormous": [
             "big",
@@ -339,7 +339,6 @@
             "Bukkit",
             "Bungeecord",
             "Paper",
-            "Velocity",
             "Forge",
             "Fabric",
             "Geyser"
