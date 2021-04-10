@@ -27,7 +27,8 @@
             "ThePureLemon",
             "ZimTheDestroyer",
             "1002",
-            "LolRiTTeR"
+            "LolRiTTeR",
+            "Bleepo"
         ],
         "sites": [
             "/r/admincraft",
@@ -37,11 +38,11 @@
             "2b2t reddit",
             "Anarchy Links Hub",
             "Anarchy Server Support",
-            "Server Admins Anonymous"
+            "Server Admins Anonymous",
+            "Anarchy Drama Generator"
         ],
         "things": [
             "Paper",
-            "GroupManager",
             "LuckPerms",
             "PermissionsEx",
             "ChatControl",
@@ -61,7 +62,9 @@
             "TCPShield",
             "BotSentry",
             "PaperBin",
-            "XeraBungeeQueue"
+            "PistonQueue",
+            "LeeesNC",
+            "DiscordSRV"
         ],
         "clients": [
             "Future Client",
@@ -86,7 +89,12 @@
             "endcrystal.me",
             "5b5t",
             "8b8t",
-            "impurity"
+            "impurity",
+            "7b7t.me",
+            "0b0t",
+            "5b5t",
+            "2b4u",
+            "2b2t-japan"
         ],
         "function": [
             "1.8 support",
@@ -121,7 +129,11 @@
             "hover events",
             "click events",
             "/home",
-            "/tpa"
+            "/tpa",
+            "/nc",
+            "/more",
+            "/home",
+            "Paypal chargebacks"
         ],
         "adj": [
             "bad",
@@ -227,7 +239,6 @@
             "code",
             "assets",
             "ideas",
-            "concepts",
             "a single function",
             "5 lines of code",
             "a class",
@@ -501,11 +512,9 @@
 
     ],
     "social": [
-        "Hot off the press!",
-        "This just in!",
+        "Hot off the drama!",
         "Fresh drama!",
-        "Breaking news!",
-        "Drama alert!",
-        "Trending on Hacker News!"
+        "Breaking drama!",
+        "Drama alert!"
     ]
 }
