@@ -28,7 +28,8 @@
             "ZimTheDestroyer",
             "1002",
             "LolRiTTeR",
-            "Bleepo"
+            "Bleepo",
+            "RemainingToast"
         ],
         "sites": [
             "/r/admincraft",
@@ -42,7 +43,6 @@
             "Anarchy Drama Generator"
         ],
         "things": [
-            "Paper",
             "LuckPerms",
             "PermissionsEx",
             "ChatControl",
@@ -71,7 +71,8 @@
             "RusherHack",
             "Kami Blue",
             "Inertia Client",
-            "Impact client"
+            "Impact client",
+            "Wurst"
         ],
         "servers": [
             "6b6t.org",
@@ -94,7 +95,8 @@
             "0b0t",
             "5b5t",
             "2b4u",
-            "2b2t-japan"
+            "2b2t-japan",
+            "2b2t.com.au"
         ],
         "function": [
             "1.8 support",
@@ -155,7 +157,10 @@
             "incorrect",
             "full of drama",
             "too realistic",
-            "terrible"
+            "terrible",
+            "obeisant",
+            "disgusting",
+            "luxuriant"
         ],
         "badsoft": [
             "malware",
@@ -220,7 +225,8 @@
             "break end portal",
             "use god mode",
             "spawn 32ks",
-            "stack items"
+            "stack items",
+            "poppop sex dupe"
         ],
         "ban": [
             "ban",
@@ -259,7 +265,8 @@
             "less vanilla",
             "more buggy",
             "more broken",
-            "less competent"
+            "less competent",
+            "shit"
         ],
         "ac1": [
             "sue",
@@ -277,14 +284,17 @@
             "enforce the GPL against",
             "insult the code of",
             "rant about",
-            "exposes"
+            "exposes",
+            "cope and seethe"
         ],
         "price": [
+            "$69",
             "$100",
             "$200",
             "$250",
             "$300",
             "$350",
+            "$420"
             "$400",
             "$450",
             "$500",
@@ -321,7 +331,8 @@
             "sets up a bot to say",
             "chats",
             "dms that",
-            "joins 2b2t to say"
+            "joins 2b2t to say",
+            "spam advertises"
         ],
         "enormous": [
             "big",
@@ -338,11 +349,13 @@
             "Patreon",
             "Tebex",
             "Craftingstore",
-            "BitCoin"
+            "BitCoin",
+            "BrownCoin"
         ],
         "document": [
             "community guidelines",
             "discord rules",
+            "discord tos",
             "server rules",
             "donation prices"
         ],
@@ -350,6 +363,7 @@
             "Bukkit",
             "Bungeecord",
             "Paper",
+            "Dionysus",
             "Forge",
             "Fabric",
             "Geyser"
@@ -508,8 +522,8 @@
         "[people] doxxes [people] causing [drama] on [sites]",
         "[people] does [crash] [servers] causing [drama]",
         "[people] scams [people] by [price] causing [drama]",
-        "[clients] bans [people] causing drama"
-
+        "[clients] bans [people] causing drama",
+        "[people] [activates] [badsoft] to [ac1] [servers]"
     ],
     "social": [
         "Hot off the drama!",
