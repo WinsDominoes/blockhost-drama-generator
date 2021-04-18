@@ -46,14 +46,12 @@
             "Paper",
             "LuckPerms",
             "PermissionsEx",
-            "ChatControl",
             "ViaVersion",
             "WorldEdit",
             "Forge",
             "open-source plugins",
             "closed-source plugins",
             "LuckPerms Web Editor",
-            "RedisBungee",
             "Flamecord",
             "free plugins",
             "premium plugins",
@@ -65,7 +63,9 @@
             "PaperBin",
             "PistonQueue",
             "LeeesNC",
-            "DiscordSRV"
+            "DiscordSRV",
+            "LeeesExploitFixer",
+            "L2X9Core"
         ],
         "clients": [
             "Future Client",
